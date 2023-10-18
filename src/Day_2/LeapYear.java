@@ -8,13 +8,11 @@ public class LeapYear {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Year: ");
         int Year = sc.nextInt();
-        if ((Year % 400 == 0) || (Year % 100 != 0) && (Year % 4 == 0)){
+        if ((Year % 400 == 0) || (Year % 100 != 0) && (Year % 4 == 0)) {
             System.out.println("It is a Leap Year");
 
 
-
-
-        }else{
+        } else {
             System.out.println("It is Not a Leaf Year");
         }
     }
