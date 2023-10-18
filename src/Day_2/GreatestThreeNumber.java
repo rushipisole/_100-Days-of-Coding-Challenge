@@ -8,7 +8,7 @@ public class GreatestThreeNumber {
     {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Number: ");
+        System.out.println("Enter Numbers: ");
         int num1 = sc.nextInt();
         int num2 = sc.nextInt();
         int num3 = sc.nextInt();
