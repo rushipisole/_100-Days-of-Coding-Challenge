@@ -3,7 +3,7 @@ package Day_6;
 public class SmallestNumberInArrays {
     public static void main(String args[]) {
 
-        int arr[] = {20, 67, 69, 106, 54, 45, 18, 1};
+        int arr[] = {20, 67, 69, 106, 54, 45, 18, 10};
 
         int min = arr[0];
 
