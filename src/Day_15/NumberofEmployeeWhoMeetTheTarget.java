@@ -5,7 +5,7 @@ public class NumberofEmployeeWhoMeetTheTarget {
         int[] hours = {0, 1, 2, 3, 4};
         int target = 2;
         int ans = Employee(hours, target);
-        System.out.println(ans);
+        System.out.println( ans );
 
 
     }
