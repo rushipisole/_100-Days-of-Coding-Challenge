@@ -9,7 +9,7 @@ public class TargetArrayintheGivenOrder {
         int[] index = {0, 1, 2, 2, 1};
         int[] ans = createTargetArray(nums, index);
         System.out.println(Arrays.toString(ans));
-    }
+    }   
 
 
     static int[] createTargetArray(int[] nums, int[] index) {
