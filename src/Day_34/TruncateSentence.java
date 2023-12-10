@@ -6,8 +6,7 @@ public class TruncateSentence {
     public static void main(String[] args) {
         String[] arr = {"Hello how are you Contestant"};
         int target = 4;
-        int ans = Integer.parseInt(Arrays.toString(new String[]{sentences(Arrays.toString(arr), target)}));
-        System.out.println(ans);
+        System.out.println(Arrays.toString(new String[]{sentences(Arrays.toString(arr), target)}));
 
     }
 
